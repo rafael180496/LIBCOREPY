@@ -6,6 +6,7 @@
 /.vscode/
 /config/
 /container/dist
+.pypirc
 ### Django ###
 *.log
 *.pot
