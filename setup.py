@@ -9,5 +9,11 @@ setup(
   url = 'https://github.com/rafael180496/LIBCOREPY', # use the URL to the github repo
   download_url = 'https://github.com/rafael180496/LIBCOREPY/tarball/0.01',
   keywords = ['testing', 'logging', 'example'],
-  classifiers = [],
+  classifiers = ['Programming Language :: Python',  # Clasificadores de compatibilidad con versiones de Python para tu paqeute
+                 'Programming Language :: Python :: 2.7',
+                 'Programming Language :: Python :: 3.3',
+                 'Programming Language :: Python :: 3.4',
+                 'Programming Language :: Python :: 3.5',
+                 'Programming Language :: Python :: 3.6',
+                 'Programming Language :: Python :: 3.7']
 )
