@@ -11,7 +11,7 @@ setup(
   name = 'libcorepy',
   packages = ['utility'], 
   license='MIT',
-  version = '0.0.1',
+  version = '0.0.3',
   description = 'Library based on the gocore libcore library',
   author = 'Rafael Antonio Hidalgo',
   author_email = 'rafael180496@gmail.com',
