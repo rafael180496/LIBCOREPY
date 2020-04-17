@@ -1,3 +1,9 @@
+"""
+Es-Archivo de manejo de errores
+
+En-Error handling file
+"""
+
 
 class CustumerError(Exception):
     """

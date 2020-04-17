@@ -1,3 +1,8 @@
+"""
+Es-Manejo de mensajes genericos e personzalidos para proyectos
+
+En-Handling of generic and personalized messages for projects
+"""
 
 import utility.error as err
 
