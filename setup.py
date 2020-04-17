@@ -15,7 +15,7 @@ setup(
   author = 'Rafael Antonio Hidalgo',
   author_email = 'rafael180496@gmail.com',
   url = 'https://github.com/rafael180496/LIBCOREPY', # use the URL to the github repo
-  download_url = 'https://github.com/rafael180496/LIBCOREPY/tarball/0.01',
+  download_url = 'https://github.com/rafael180496/LIBCOREPY/tarball/v0.0.1',
   keywords = 'test example develop',
   classifiers = ['Programming Language :: Python :: 3.3',
                  'Programming Language :: Python :: 3.4',
