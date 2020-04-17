@@ -1,9 +1,16 @@
 from distutils.core import setup
+#upload Library
+#    Install it via pip install twine
+#    Make sure your .pypirc file has the correct credentials for test.pypi.org because that is a separate database from production pypi.
+#    Build your sdist python setup.py sdist
+#    Use twine upload --repository pypitest dist/* for your test upload.
+#    Use twine upload --repository pypi dist/* for your production upload.
+
 setup(
   name = 'libcorepy',
   packages = ['utility'], 
   license='MIT',
-  version = '0.01',
+  version = '0.0.1',
   description = 'Library based on the gocore libcore library',
   author = 'Rafael Antonio Hidalgo',
   author_email = 'rafael180496@gmail.com',
