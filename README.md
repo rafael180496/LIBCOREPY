@@ -11,6 +11,20 @@ libcore migrada con funcionaledades parecidas.[rafael180496/libcore]([https://gi
 
 python3 {modulo}.py -v
 
+### Dependencias a instalar si usar linux
+
+#### Python version 2.X
+
+```bash
+sudo apt-get install python-dev
+```
+
+#### Python version 3.X
+
+```bash
+sudo apt-get install python3-dev
+```
+
 ## LIBCOREPY EN
 
 ### Library based on the gocore libcore library
@@ -21,3 +35,17 @@ libcore migrated with similar functionality.[rafael180496/libcore]([https://gith
 ### Run a Testing on the module
 
 python3 {modulo}.py -v
+
+### Dependencies to install if using linux
+
+#### Python V2.X
+
+```bash
+sudo apt-get install python-dev
+```
+
+#### Python V3.X
+
+```bash
+sudo apt-get install python3-dev
+```
