@@ -10,9 +10,9 @@ from setuptools import setup,find_packages
 setup(
   name = 'libcorepy',
   packages = find_packages(), 
-  install_requires=[i.strip() for i in open("requirements.txt").readlines()],
+  install_requires=["pycrypto"],
   license='MIT',
-  version = '0.0.5',
+  version = '0.0.6',
   description = 'Library based on the gocore libcore library',
   author = 'Rafael Antonio Hidalgo',
   author_email = 'rafael180496@gmail.com',
