@@ -12,7 +12,7 @@ setup(
   packages = find_packages(), 
   install_requires=["pycrypto"],
   license='MIT',
-  version = '0.0.6',
+  version = '0.0.7',
   description = 'Library based on the gocore libcore library',
   author = 'Rafael Antonio Hidalgo',
   author_email = 'rafael180496@gmail.com',
