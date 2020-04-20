@@ -6,6 +6,10 @@ En-All utility package constants are loaded.
 
 import utility.msj as msj
 
+#FORMAT_DATE_DEFAULT : ES-Formato por defecto de pasar un date a string
+#FORMAT_DATE_DEFAULT : EN-Default format of passing a date to string
+FORMAT_DATE_DEFAULT="{yyyy}{mm}{dd}"
+
 #BS : ES-Cantidad de byte que contiene la llave
 #BS : EN-Amount of byte containing the key
 BS=16

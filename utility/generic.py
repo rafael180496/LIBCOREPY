@@ -7,6 +7,8 @@ En-Generic functions for reuse.
 import random
 import string
 import uuid
+import datetime as  d 
+import utility.constante as constante
 
 def ValidateDuplicateArrayStr(strs=[]):
     """
@@ -103,6 +105,22 @@ def UuidStr():
     """
     return str(uuid.uuid4())
 
+def DateToStr(date=d.date.today(),formatStr=constante.FORMAT_DATE_DEFAULT):
+    """
+    Es-Te pasa a string un date con un formato que deseas por defecto es {yyyy}{mm}{dd}
+    
+    En-Te pasa a string un date con un formato que deseas por defecto es {yyyy}{mm}{dd}
+    
+    test:
+
+    >>> DateToStr()
+    'a'
+    """
+    return formatStr.format_map({
+        "dd":date.day,
+        "mm":date.month,
+        "yyyy":date.year
+    })
 
 if __name__ == '__main__':
     import doctest
