@@ -12,7 +12,7 @@ setup(
   packages = find_packages(), 
   install_requires=[i.strip() for i in open("requirements.txt").readlines()],
   license='MIT',
-  version = '0.0.4',
+  version = '0.0.5',
   description = 'Library based on the gocore libcore library',
   author = 'Rafael Antonio Hidalgo',
   author_email = 'rafael180496@gmail.com',
